@@ -1,0 +1,16 @@
+server:
+  port: 80
+spring:
+  application:
+    name: api-gateway
+  cloud:
+    config:
+      uri: http://localhost:5000
+#    gateway:
+#      routes:
+#        - id: ResourceService
+#          uri: lb://resource-server
+#          predicates:
+#            - Path=/user/**
+
+
